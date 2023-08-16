@@ -2,7 +2,7 @@ import { Router } from "express";
 import {dobro,somar} from './services.js'
 
 const server = Router();
-// A partir do Router criamos os endpoints, como um roteador;
+// A partir do Router criamos os endpoints, como um roteador
 
 server.get('/ping', (req, resp) => {
     resp.send('pong')
